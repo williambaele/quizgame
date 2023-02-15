@@ -144,3 +144,21 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 264ms (Views: 262.6ms | Allocations: 68267)
 
 
+Started GET "/" for ::1 at 2023-02-15 17:23:03 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2630)
+Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 3432)
+
+
+Started GET "/" for ::1 at 2023-02-15 17:28:12 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2349)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 2928)
+
+
