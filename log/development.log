@@ -489,3 +489,47 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 30ms (Views: 28.8ms | Allocations: 4007)
 
 
+Started GET "/" for ::1 at 2023-02-15 17:58:51 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 1.1ms | Allocations: 128)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3181)
+Completed 200 OK in 15ms (Views: 12.2ms | Allocations: 3983)
+
+
+Started GET "/" for ::1 at 2023-02-15 17:58:55 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.9ms | Allocations: 128)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3186)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 3987)
+
+
+Started GET "/" for ::1 at 2023-02-15 17:59:47 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 128)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3176)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 3978)
+
+
+Started GET "/" for ::1 at 2023-02-15 17:59:53 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 128)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3186)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 3987)
+
+
