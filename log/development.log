@@ -111,3 +111,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 17ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3247)
 
 
+Started GET "/" for ::1 at 2023-02-15 17:03:29 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 940)
+
+
