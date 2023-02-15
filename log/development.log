@@ -94,3 +94,20 @@ Migrating to DeviseCreateUsers (20230215155349)
   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3044136160172630145)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-02-15 16:55:03 +0100
+  
+NoMethodError (undefined method `devise_for' for #<ActionDispatch::Routing::Mapper:0x000000011607ded0 @set=#<ActionDispatch::Routing::RouteSet:0x00000001157be0b0>, @draw_paths=[#<Pathname:/Users/test/Desktop/Dev/quizgame/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x000000011607de80 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x00000001159154b8 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+
+  devise_for :users
+  ^^^^^^^^^^):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-02-15 16:55:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.2ms | Allocations: 476)
+Completed 200 OK in 17ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3247)
+
+
