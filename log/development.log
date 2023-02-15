@@ -118,3 +118,29 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 940)
 
 
+Started GET "/" for ::1 at 2023-02-15 17:15:45 +0100
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-02-15 17:15:51 +0100
+  
+ActionController::RoutingError (uninitialized constant PageController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  PagesController
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for ::1 at 2023-02-15 17:15:59 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 260.8ms | Allocations: 67328)
+Completed 200 OK in 264ms (Views: 262.6ms | Allocations: 68267)
+
+
