@@ -1,12 +1,7 @@
 <section class="bg-white">
   <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
     <section class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6" >
-      <img
-        alt="Night"
-        src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        class="absolute inset-0 h-full w-full object-cover opacity-80"
-      />
-
+      <img alt="class" src="https://images.unsplash.com/photo-1580974852861-c381510bc98a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1084&q=80" class="absolute inset-0 h-full w-full object-cover opacity-80"/>
       <div class="hidden lg:relative lg:block lg:p-12">
         <a class="block text-white" href="/">
           <span class="sr-only">Home</span>
@@ -52,41 +47,32 @@
           </p>
         </div>
 
-        <form action="#" class="mt-8 grid grid-cols-6 gap-6">
-        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name), class:"mt-8 grid grid-cols-6 gap-6") do |f| %>
         <%= render "devise/shared/error_messages", resource: resource %>
           <div class="col-span-6 sm:col-span-3">
             <label for="FirstName" class="block text-sm font-medium text-gray-700">
               First Name
             </label>
-            <%= f.text_field :first_name, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+            <%= f.text_field :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
           </div>
-
           <div class="col-span-6 sm:col-span-3">
-            <label
-              for="LastName"
-              class="block text-sm font-medium text-gray-700"
-            >
+            <label for="LastName" class="block text-sm font-medium text-gray-700" >
               Last Name
             </label>
-            <%= f.text_field :last_name, required: true, autofocus: true, input_html: { autocomplete: "last_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+            <%= f.text_field :last_name, autofocus: true, required: true, autofocus: true, input_html: { autocomplete: "last_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
           </div>
-
           <div class="col-span-6">
             <label for="Email" class="block text-sm font-medium text-gray-700">
               Email
             </label>
             <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
           </div>
-
           <div class="col-span-6 sm:col-span-3">
             <label
-              for="Password"
-              class="block text-sm font-medium text-gray-700"
-            >
+              for="Password" class="block text-sm font-medium text-gray-700">
               Password
             </label>
-            <%= f.password_field :password, autocomplete: "current-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+            <%= f.password_field :password, autocomplete: "new-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
           </div>
 
           <div class="col-span-6 sm:col-span-3">
@@ -113,13 +99,12 @@
             <div class="actions">
               <%= f.submit "Create an account", class:"inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500" %>
             </div>
-        <% end %>
             <p class="mt-4 text-sm text-gray-500 sm:mt-0">
               Already have an account?
               <a href="#" class="text-gray-700 underline">Log in</a>.
             </p>
           </div>
-        </form>
+        <% end %>
       </div>
     </main>
   </div>
