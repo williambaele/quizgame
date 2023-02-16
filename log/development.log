@@ -1265,3 +1265,137 @@ Processing by PagesController#index as TURBO_STREAM
 Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 3617)
 
 
+Started GET "/" for ::1 at 2023-02-16 10:36:14 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 127)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 4703)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 214)
+  Rendered shared/_flash.html.erb (Duration: 0.7ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 7588)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 9.2ms | Allocations: 8382)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:36:18 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1922)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:36:18 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 10)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1131)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3210)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 3499)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:36:19 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1493)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:36:19 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1106)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3076)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 3317)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:36:20 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1484)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:36:20 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1127)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3097)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 3338)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:36:20 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1505)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:36:20 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 127)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1751)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 211)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 280)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4643)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 5449)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2023-02-16 10:36:22 +0100
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1752)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:36:22 +0100
+Processing by PagesController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 352)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2329)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2631)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:36:23 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 194)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 485)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2488)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4629)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 5778)
+
+
