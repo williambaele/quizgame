@@ -1399,3 +1399,2332 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 5778)
 
 
+Started GET "/" for ::1 at 2023-02-16 10:37:11 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 370)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2341)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:42:42 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.7ms | Allocations: 127)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 741)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 293)
+  Rendered shared/_flash.html.erb (Duration: 1.0ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3729)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 4509)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:47:19 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 1.2ms | Allocations: 127)
+  Rendered pages/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 735)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 292)
+  Rendered shared/_flash.html.erb (Duration: 1.2ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 3722)
+Completed 200 OK in 35ms (Views: 31.1ms | Allocations: 4523)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:47:21 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 304)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2302)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2555)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:47:33 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 194)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 471)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2457)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 263)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 5365)
+Completed 200 OK in 21ms (Views: 18.0ms | Allocations: 6606)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-02-16 10:47:42 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 143)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1742)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3897)
+Completed 200 OK in 11ms (Views: 8.9ms | Allocations: 4981)
+
+
+Started GET "/" for ::1 at 2023-02-16 10:47:44 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 756)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2997)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 3600)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-02-16 10:47:46 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1296)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3264)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 3881)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-02-16 10:48:03 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 526)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2196)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 263)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5093)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 6369)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:48:09 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 471)
+  Rendered /Users/test/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2457)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 40.4ms | Allocations: 5371)
+Completed 200 OK in 44ms (Views: 43.2ms | Allocations: 6685)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 10:49:58 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2548)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 263)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 5474)
+Completed 200 OK in 20ms (Views: 19.0ms | Allocations: 6685)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:01:18 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1366)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1455)
+Completed 500 Internal Server Error in 8ms (Allocations: 2661)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+      <p class="mt-4 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+        eaque error neque ipsa culpa autem, at itaque nostrum!
+      </p>
+    </div>
+
+    <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+      <div>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+        <label for="email" class="sr-only">Email</label>
+
+        <div class="relative">
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <p class="text-sm text-gray-500">
+          No account?
+          <a href="#" class="underline">Sign up</a>
+        </p>
+
+        <div class="actions">
+          <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+        </div>
+        <button type="submit" class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+          Sign in
+        </button>
+      </div>
+      <% end %>
+    </form>
+  </div>
+
+  <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+    <img
+      alt="Welcome"
+      src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  </div>
+</section>
+
+):
+1:    <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+2:      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+3:        <div class="mx-auto max-w-lg text-center">
+4:          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+5:    
+6:          <p class="mt-4 text-gray-500">
+7:            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+8:            eaque error neque ipsa culpa autem, at itaque nostrum!
+9:          </p>
+10:        </div>
+11:    
+12:        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+13:          <div>
+14:            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+15:            <%= render "devise/shared/error_messages", resource: resource %>
+16:            <label for="email" class="sr-only">Email</label>
+17:    
+18:            <div class="relative">
+19:              <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+20:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+21:                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+22:                  <path
+23:                    stroke-linecap="round"
+24:                    stroke-linejoin="round"
+25:                    stroke-width="2"
+26:                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+27:                  />
+28:                </svg>
+29:              </span>
+30:            </div>
+31:          </div>
+32:    
+33:          <div>
+34:            <label for="password" class="sr-only">Password</label>
+35:            <div class="relative">
+36:              <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+37:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+38:                <svg
+39:                  xmlns="http://www.w3.org/2000/svg"
+40:                  class="h-5 w-5 text-gray-400"
+41:                  fill="none"
+42:                  viewBox="0 0 24 24"
+43:                  stroke="currentColor"
+44:                >
+45:                  <path
+46:                    stroke-linecap="round"
+47:                    stroke-linejoin="round"
+48:                    stroke-width="2"
+49:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+50:                  />
+51:                  <path
+52:                    stroke-linecap="round"
+53:                    stroke-linejoin="round"
+54:                    stroke-width="2"
+55:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+56:                  />
+57:                </svg>
+58:              </span>
+59:            </div>
+60:          </div>
+61:    
+62:          <div class="flex items-center justify-between">
+63:            <p class="text-sm text-gray-500">
+64:              No account?
+65:              <a href="#" class="underline">Sign up</a>
+66:            </p>
+67:    
+68:            <div class="actions">
+69:              <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+70:            </div>
+71:            <button type="submit" class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+72:              Sign in
+73:            </button>
+74:          </div>
+75:          <% end %>
+76:        </form>
+77:      </div>
+78:    
+79:      <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+80:        <img
+81:          alt="Welcome"
+82:          src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+83:          class="absolute inset-0 h-full w-full object-cover"
+84:        />
+85:      </div>
+86:    </section>
+  
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:01:44 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1354)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1443)
+Completed 500 Internal Server Error in 5ms (Allocations: 2643)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+      <p class="mt-4 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+        eaque error neque ipsa culpa autem, at itaque nostrum!
+      </p>
+    </div>
+
+    <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+      <div>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+        <label for="email" class="sr-only">Email</label>
+
+        <div class="relative">
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <p class="text-sm text-gray-500">
+          No account?
+          <a href="#" class="underline">Sign up</a>
+        </p>
+
+        <div class="actions">
+          <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+        </div>
+        <button type="submit" class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+          Sign in
+        </button>
+      </div>
+    </form>
+      <% end %>
+  </div>
+
+  <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+    <img
+      alt="Welcome"
+      src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  </div>
+</section>
+
+):
+1:    <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+2:      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+3:        <div class="mx-auto max-w-lg text-center">
+4:          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+5:    
+6:          <p class="mt-4 text-gray-500">
+7:            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+8:            eaque error neque ipsa culpa autem, at itaque nostrum!
+9:          </p>
+10:        </div>
+11:    
+12:        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+13:          <div>
+14:            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+15:            <%= render "devise/shared/error_messages", resource: resource %>
+16:            <label for="email" class="sr-only">Email</label>
+17:    
+18:            <div class="relative">
+19:              <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+20:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+21:                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+22:                  <path
+23:                    stroke-linecap="round"
+24:                    stroke-linejoin="round"
+25:                    stroke-width="2"
+26:                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+27:                  />
+28:                </svg>
+29:              </span>
+30:            </div>
+31:          </div>
+32:    
+33:          <div>
+34:            <label for="password" class="sr-only">Password</label>
+35:            <div class="relative">
+36:              <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+37:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+38:                <svg
+39:                  xmlns="http://www.w3.org/2000/svg"
+40:                  class="h-5 w-5 text-gray-400"
+41:                  fill="none"
+42:                  viewBox="0 0 24 24"
+43:                  stroke="currentColor"
+44:                >
+45:                  <path
+46:                    stroke-linecap="round"
+47:                    stroke-linejoin="round"
+48:                    stroke-width="2"
+49:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+50:                  />
+51:                  <path
+52:                    stroke-linecap="round"
+53:                    stroke-linejoin="round"
+54:                    stroke-width="2"
+55:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+56:                  />
+57:                </svg>
+58:              </span>
+59:            </div>
+60:          </div>
+61:    
+62:          <div class="flex items-center justify-between">
+63:            <p class="text-sm text-gray-500">
+64:              No account?
+65:              <a href="#" class="underline">Sign up</a>
+66:            </p>
+67:    
+68:            <div class="actions">
+69:              <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+70:            </div>
+71:            <button type="submit" class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+72:              Sign in
+73:            </button>
+74:          </div>
+75:        </form>
+76:          <% end %>
+77:      </div>
+78:    
+79:      <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+80:        <img
+81:          alt="Welcome"
+82:          src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+83:          class="absolute inset-0 h-full w-full object-cover"
+84:        />
+85:      </div>
+86:    </section>
+  
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:02:01 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1352)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1441)
+Completed 500 Internal Server Error in 5ms (Allocations: 2641)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+      <p class="mt-4 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+        eaque error neque ipsa culpa autem, at itaque nostrum!
+      </p>
+    </div>
+
+    <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+      <div>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+        <label for="email" class="sr-only">Email</label>
+
+        <div class="relative">
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <p class="text-sm text-gray-500">
+          No account?
+          <a href="#" class="underline">Sign up</a>
+        </p>
+
+        <div class="actions">
+          <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+        </div>
+
+      </div>
+    </form>
+      <% end %>
+  </div>
+
+  <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+    <img
+      alt="Welcome"
+      src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  </div>
+</section>
+
+):
+1:    <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+2:      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+3:        <div class="mx-auto max-w-lg text-center">
+4:          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+5:    
+6:          <p class="mt-4 text-gray-500">
+7:            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+8:            eaque error neque ipsa culpa autem, at itaque nostrum!
+9:          </p>
+10:        </div>
+11:    
+12:        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+13:          <div>
+14:            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+15:            <%= render "devise/shared/error_messages", resource: resource %>
+16:            <label for="email" class="sr-only">Email</label>
+17:    
+18:            <div class="relative">
+19:              <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter email"%>
+20:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+21:                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+22:                  <path
+23:                    stroke-linecap="round"
+24:                    stroke-linejoin="round"
+25:                    stroke-width="2"
+26:                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+27:                  />
+28:                </svg>
+29:              </span>
+30:            </div>
+31:          </div>
+32:    
+33:          <div>
+34:            <label for="password" class="sr-only">Password</label>
+35:            <div class="relative">
+36:              <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" placeholder="Enter password" %>
+37:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+38:                <svg
+39:                  xmlns="http://www.w3.org/2000/svg"
+40:                  class="h-5 w-5 text-gray-400"
+41:                  fill="none"
+42:                  viewBox="0 0 24 24"
+43:                  stroke="currentColor"
+44:                >
+45:                  <path
+46:                    stroke-linecap="round"
+47:                    stroke-linejoin="round"
+48:                    stroke-width="2"
+49:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+50:                  />
+51:                  <path
+52:                    stroke-linecap="round"
+53:                    stroke-linejoin="round"
+54:                    stroke-width="2"
+55:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+56:                  />
+57:                </svg>
+58:              </span>
+59:            </div>
+60:          </div>
+61:    
+62:          <div class="flex items-center justify-between">
+63:            <p class="text-sm text-gray-500">
+64:              No account?
+65:              <a href="#" class="underline">Sign up</a>
+66:            </p>
+67:    
+68:            <div class="actions">
+69:              <%= f.submit "Sign in", class:"ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white" %>
+70:            </div>
+71:    
+72:          </div>
+73:        </form>
+74:          <% end %>
+75:      </div>
+76:    
+77:      <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+78:        <img
+79:          alt="Welcome"
+80:          src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+81:          class="absolute inset-0 h-full w-full object-cover"
+82:        />
+83:      </div>
+84:    </section>
+  
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:19: syntax error, unexpected local variable or method, expecting ')'
+app/views/devise/registrations/new.html.erb:36: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:02:48 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.6ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1280)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.8ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4220)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 5445)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:02:57 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1269)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4199)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 5427)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:04:36 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 471)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3347)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 263)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6267)
+Completed 200 OK in 16ms (Views: 15.2ms | Allocations: 7481)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:04:45 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1412)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 272)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4345)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 5557)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:05:16 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1307)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4246)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 5475)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:05:29 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1307)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4238)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 5446)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:05:43 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1307)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4238)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 5434)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:05:52 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1307)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 1.1ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4238)
+Completed 200 OK in 18ms (Views: 16.5ms | Allocations: 5443)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:06:52 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1522)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.8ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4453)
+Completed 200 OK in 16ms (Views: 15.7ms | Allocations: 5676)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:08:33 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1504)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.8ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4435)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 5673)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:09:01 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1487)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4418)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 5641)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:11:23 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1593)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1682)
+Completed 500 Internal Server Error in 7ms (Allocations: 2874)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+      <p class="mt-4 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+        eaque error neque ipsa culpa autem, at itaque nostrum!
+      </p>
+    </div>
+
+    <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+      <div>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+        <label for="email" class="sr-only">Email</label>
+
+        <div class="relative">
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter email"%>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Confirm password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </form>
+      <% end %>
+  </div>
+
+  <div class="relative h-56 w-full sm:h-96 lg:h-full lg:w-1/2">
+    <img
+      alt="Welcome"
+      src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  </div>
+</section>
+
+<!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+<section class="bg-white">
+  <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+    <section
+      class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
+    >
+      <img
+        alt="Night"
+        src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        class="absolute inset-0 h-full w-full object-cover opacity-80"
+      />
+
+      <div class="hidden lg:relative lg:block lg:p-12">
+        <a class="block text-white" href="/">
+          <span class="sr-only">Home</span>
+          <svg
+            class="h-8 sm:h-10"
+            viewBox="0 0 28 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+
+        <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+          Welcome to Squid 🦑
+        </h2>
+
+        <p class="mt-4 leading-relaxed text-white/90">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
+          dolorum aliquam, quibusdam aperiam voluptatum.
+        </p>
+      </div>
+    </section>
+
+    <main aria-label="Main" class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+      <div class="max-w-xl lg:max-w-3xl">
+        <div class="relative -mt-16 block lg:hidden">
+          <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20" href="/">
+            <span class="sr-only">Home</span>
+            <svg class="h-8 sm:h-10" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z" fill="currentColor"/>
+            </svg>
+          </a>
+          <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl" >
+            Welcome to Quiz Game 🦑
+          </h1>
+          <p class="mt-4 leading-relaxed text-gray-500">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            nam dolorum aliquam, quibusdam aperiam voluptatum.
+          </p>
+        </div>
+
+        <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="FirstName"
+              class="block text-sm font-medium text-gray-700"
+            >
+              First Name
+            </label>
+
+            <input
+              type="text"
+              id="FirstName"
+              name="first_name"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="LastName"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Last Name
+            </label>
+
+            <input
+              type="text"
+              id="LastName"
+              name="last_name"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6">
+            <label for="Email" class="block text-sm font-medium text-gray-700">
+              Email
+            </label>
+
+            <input
+              type="email"
+              id="Email"
+              name="email"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="Password"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Password
+            </label>
+
+            <input
+              type="password"
+              id="Password"
+              name="password"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="PasswordConfirmation"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Password Confirmation
+            </label>
+            <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+            <input
+              type="password"
+              id="PasswordConfirmation"
+              name="password_confirmation"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+          <div class="col-span-6">
+            <p class="text-sm text-gray-500">
+              By creating an account, you agree to our
+              <a href="#" class="text-gray-700 underline">
+                terms and conditions
+              </a>
+              and
+              <a href="#" class="text-gray-700 underline">privacy policy</a>.
+            </p>
+          </div>
+
+          <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+            <div class="actions">
+              <%= f.submit "Create an account", class:"inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500" %>
+            </div>
+        <% end %>
+            <p class="mt-4 text-sm text-gray-500 sm:mt-0">
+              Already have an account?
+              <a href="#" class="text-gray-700 underline">Log in</a>.
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+</section>
+
+):
+1:    <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+2:      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+3:        <div class="mx-auto max-w-lg text-center">
+4:          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+5:    
+6:          <p class="mt-4 text-gray-500">
+7:            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+8:            eaque error neque ipsa culpa autem, at itaque nostrum!
+9:          </p>
+10:        </div>
+11:    
+12:        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+13:          <div>
+14:            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+15:            <%= render "devise/shared/error_messages", resource: resource %>
+16:            <label for="email" class="sr-only">Email</label>
+17:    
+18:            <div class="relative">
+19:              <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter email"%>
+20:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+21:                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+22:                  <path
+23:                    stroke-linecap="round"
+24:                    stroke-linejoin="round"
+25:                    stroke-width="2"
+26:                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+27:                  />
+28:                </svg>
+29:              </span>
+30:            </div>
+31:          </div>
+32:    
+33:          <div>
+34:            <label for="password" class="sr-only">Password</label>
+35:            <div class="relative">
+36:              <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter password" %>
+37:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+38:                <svg
+39:                  xmlns="http://www.w3.org/2000/svg"
+40:                  class="h-5 w-5 text-gray-400"
+41:                  fill="none"
+42:                  viewBox="0 0 24 24"
+43:                  stroke="currentColor">
+44:                  <path
+45:                    stroke-linecap="round"
+46:                    stroke-linejoin="round"
+47:                    stroke-width="2"
+48:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+49:                  <path
+50:                    stroke-linecap="round"
+51:                    stroke-linejoin="round"
+52:                    stroke-width="2"
+53:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+54:                </svg>
+55:              </span>
+56:            </div>
+57:          </div>
+58:          <div>
+59:            <label for="password" class="sr-only">Password</label>
+60:            <div class="relative">
+61:              <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Confirm password" %>
+62:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+63:                <svg
+64:                  xmlns="http://www.w3.org/2000/svg"
+65:                  class="h-5 w-5 text-gray-400"
+66:                  fill="none"
+67:                  viewBox="0 0 24 24"
+68:                  stroke="currentColor">
+69:                  <path
+70:                    stroke-linecap="round"
+71:                    stroke-linejoin="round"
+72:                    stroke-width="2"
+73:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+74:                  <path
+75:                    stroke-linecap="round"
+76:                    stroke-linejoin="round"
+77:                    stroke-width="2"
+78:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+79:                </svg>
+80:              </span>
+81:            </div>
+82:          </div>
+83:        </form>
+84:          <% end %>
+85:      </div>
+86:    
+87:      <div class="relative h-56 w-full sm:h-96 lg:h-full lg:w-1/2">
+88:        <img
+89:          alt="Welcome"
+90:          src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+91:          class="absolute inset-0 h-full w-full object-cover"
+92:        />
+93:      </div>
+94:    </section>
+95:    
+96:    <!--
+97:      This component uses @tailwindcss/forms
+98:    
+99:      yarn add @tailwindcss/forms
+100:      npm install @tailwindcss/forms
+101:    
+102:      plugins: [require('@tailwindcss/forms')]
+103:    -->
+104:    
+105:    <section class="bg-white">
+106:      <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+107:        <section
+108:          class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
+109:        >
+110:          <img
+111:            alt="Night"
+112:            src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+113:            class="absolute inset-0 h-full w-full object-cover opacity-80"
+114:          />
+115:    
+116:          <div class="hidden lg:relative lg:block lg:p-12">
+117:            <a class="block text-white" href="/">
+118:              <span class="sr-only">Home</span>
+119:              <svg
+120:                class="h-8 sm:h-10"
+121:                viewBox="0 0 28 24"
+122:                fill="none"
+123:                xmlns="http://www.w3.org/2000/svg"
+124:              >
+125:                <path
+126:                  d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+127:                  fill="currentColor"
+128:                />
+129:              </svg>
+130:            </a>
+131:    
+132:            <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+133:              Welcome to Squid 🦑
+134:            </h2>
+135:    
+136:            <p class="mt-4 leading-relaxed text-white/90">
+137:              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
+138:              dolorum aliquam, quibusdam aperiam voluptatum.
+139:            </p>
+140:          </div>
+141:        </section>
+142:    
+143:        <main aria-label="Main" class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+144:          <div class="max-w-xl lg:max-w-3xl">
+145:            <div class="relative -mt-16 block lg:hidden">
+146:              <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20" href="/">
+147:                <span class="sr-only">Home</span>
+148:                <svg class="h-8 sm:h-10" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+149:                  <path d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z" fill="currentColor"/>
+150:                </svg>
+151:              </a>
+152:              <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl" >
+153:                Welcome to Quiz Game 🦑
+154:              </h1>
+155:              <p class="mt-4 leading-relaxed text-gray-500">
+156:                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+157:                nam dolorum aliquam, quibusdam aperiam voluptatum.
+158:              </p>
+159:            </div>
+160:    
+161:            <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+162:              <div class="col-span-6 sm:col-span-3">
+163:                <label
+164:                  for="FirstName"
+165:                  class="block text-sm font-medium text-gray-700"
+166:                >
+167:                  First Name
+168:                </label>
+169:    
+170:                <input
+171:                  type="text"
+172:                  id="FirstName"
+173:                  name="first_name"
+174:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+175:                />
+176:              </div>
+177:    
+178:              <div class="col-span-6 sm:col-span-3">
+179:                <label
+180:                  for="LastName"
+181:                  class="block text-sm font-medium text-gray-700"
+182:                >
+183:                  Last Name
+184:                </label>
+185:    
+186:                <input
+187:                  type="text"
+188:                  id="LastName"
+189:                  name="last_name"
+190:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+191:                />
+192:              </div>
+193:    
+194:              <div class="col-span-6">
+195:                <label for="Email" class="block text-sm font-medium text-gray-700">
+196:                  Email
+197:                </label>
+198:    
+199:                <input
+200:                  type="email"
+201:                  id="Email"
+202:                  name="email"
+203:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+204:                />
+205:              </div>
+206:    
+207:              <div class="col-span-6 sm:col-span-3">
+208:                <label
+209:                  for="Password"
+210:                  class="block text-sm font-medium text-gray-700"
+211:                >
+212:                  Password
+213:                </label>
+214:    
+215:                <input
+216:                  type="password"
+217:                  id="Password"
+218:                  name="password"
+219:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+220:                />
+221:              </div>
+222:    
+223:              <div class="col-span-6 sm:col-span-3">
+224:                <label
+225:                  for="PasswordConfirmation"
+226:                  class="block text-sm font-medium text-gray-700"
+227:                >
+228:                  Password Confirmation
+229:                </label>
+230:                <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+231:                <input
+232:                  type="password"
+233:                  id="PasswordConfirmation"
+234:                  name="password_confirmation"
+235:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+236:                />
+237:              </div>
+238:              <div class="col-span-6">
+239:                <p class="text-sm text-gray-500">
+240:                  By creating an account, you agree to our
+241:                  <a href="#" class="text-gray-700 underline">
+242:                    terms and conditions
+243:                  </a>
+244:                  and
+245:                  <a href="#" class="text-gray-700 underline">privacy policy</a>.
+246:                </p>
+247:              </div>
+248:    
+249:              <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+250:                <div class="actions">
+251:                  <%= f.submit "Create an account", class:"inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500" %>
+252:                </div>
+253:            <% end %>
+254:                <p class="mt-4 text-sm text-gray-500 sm:mt-0">
+255:                  Already have an account?
+256:                  <a href="#" class="text-gray-700 underline">Log in</a>.
+257:                </p>
+258:              </div>
+259:            </form>
+260:          </div>
+261:        </main>
+262:      </div>
+263:    </section>
+  
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:11:24 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1550)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1630)
+Completed 500 Internal Server Error in 3ms (Allocations: 2211)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+      <p class="mt-4 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+        eaque error neque ipsa culpa autem, at itaque nostrum!
+      </p>
+    </div>
+
+    <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+      <div>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+        <label for="email" class="sr-only">Email</label>
+
+        <div class="relative">
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter email"%>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div>
+        <label for="password" class="sr-only">Password</label>
+        <div class="relative">
+          <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Confirm password" %>
+          <span class="absolute inset-y-0 right-4 inline-flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </form>
+      <% end %>
+  </div>
+
+  <div class="relative h-56 w-full sm:h-96 lg:h-full lg:w-1/2">
+    <img
+      alt="Welcome"
+      src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  </div>
+</section>
+
+<!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+<section class="bg-white">
+  <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+    <section
+      class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
+    >
+      <img
+        alt="Night"
+        src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        class="absolute inset-0 h-full w-full object-cover opacity-80"
+      />
+
+      <div class="hidden lg:relative lg:block lg:p-12">
+        <a class="block text-white" href="/">
+          <span class="sr-only">Home</span>
+          <svg
+            class="h-8 sm:h-10"
+            viewBox="0 0 28 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+
+        <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+          Welcome to Squid 🦑
+        </h2>
+
+        <p class="mt-4 leading-relaxed text-white/90">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
+          dolorum aliquam, quibusdam aperiam voluptatum.
+        </p>
+      </div>
+    </section>
+
+    <main aria-label="Main" class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+      <div class="max-w-xl lg:max-w-3xl">
+        <div class="relative -mt-16 block lg:hidden">
+          <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20" href="/">
+            <span class="sr-only">Home</span>
+            <svg class="h-8 sm:h-10" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z" fill="currentColor"/>
+            </svg>
+          </a>
+          <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl" >
+            Welcome to Quiz Game 🦑
+          </h1>
+          <p class="mt-4 leading-relaxed text-gray-500">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            nam dolorum aliquam, quibusdam aperiam voluptatum.
+          </p>
+        </div>
+
+        <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="FirstName"
+              class="block text-sm font-medium text-gray-700"
+            >
+              First Name
+            </label>
+
+            <input
+              type="text"
+              id="FirstName"
+              name="first_name"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="LastName"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Last Name
+            </label>
+
+            <input
+              type="text"
+              id="LastName"
+              name="last_name"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6">
+            <label for="Email" class="block text-sm font-medium text-gray-700">
+              Email
+            </label>
+
+            <input
+              type="email"
+              id="Email"
+              name="email"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="Password"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Password
+            </label>
+
+            <input
+              type="password"
+              id="Password"
+              name="password"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+
+          <div class="col-span-6 sm:col-span-3">
+            <label
+              for="PasswordConfirmation"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Password Confirmation
+            </label>
+            <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+            <input
+              type="password"
+              id="PasswordConfirmation"
+              name="password_confirmation"
+              class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+            />
+          </div>
+          <div class="col-span-6">
+            <p class="text-sm text-gray-500">
+              By creating an account, you agree to our
+              <a href="#" class="text-gray-700 underline">
+                terms and conditions
+              </a>
+              and
+              <a href="#" class="text-gray-700 underline">privacy policy</a>.
+            </p>
+          </div>
+
+          <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+            <div class="actions">
+              <%= f.submit "Create an account", class:"inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500" %>
+            </div>
+        <% end %>
+            <p class="mt-4 text-sm text-gray-500 sm:mt-0">
+              Already have an account?
+              <a href="#" class="text-gray-700 underline">Log in</a>.
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+</section>
+
+):
+1:    <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+2:      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+3:        <div class="mx-auto max-w-lg text-center">
+4:          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+5:    
+6:          <p class="mt-4 text-gray-500">
+7:            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+8:            eaque error neque ipsa culpa autem, at itaque nostrum!
+9:          </p>
+10:        </div>
+11:    
+12:        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+13:          <div>
+14:            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+15:            <%= render "devise/shared/error_messages", resource: resource %>
+16:            <label for="email" class="sr-only">Email</label>
+17:    
+18:            <div class="relative">
+19:              <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter email"%>
+20:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+21:                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+22:                  <path
+23:                    stroke-linecap="round"
+24:                    stroke-linejoin="round"
+25:                    stroke-width="2"
+26:                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+27:                  />
+28:                </svg>
+29:              </span>
+30:            </div>
+31:          </div>
+32:    
+33:          <div>
+34:            <label for="password" class="sr-only">Password</label>
+35:            <div class="relative">
+36:              <%= f.password_field :password, autocomplete: "current-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Enter password" %>
+37:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+38:                <svg
+39:                  xmlns="http://www.w3.org/2000/svg"
+40:                  class="h-5 w-5 text-gray-400"
+41:                  fill="none"
+42:                  viewBox="0 0 24 24"
+43:                  stroke="currentColor">
+44:                  <path
+45:                    stroke-linecap="round"
+46:                    stroke-linejoin="round"
+47:                    stroke-width="2"
+48:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+49:                  <path
+50:                    stroke-linecap="round"
+51:                    stroke-linejoin="round"
+52:                    stroke-width="2"
+53:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+54:                </svg>
+55:              </span>
+56:            </div>
+57:          </div>
+58:          <div>
+59:            <label for="password" class="sr-only">Password</label>
+60:            <div class="relative">
+61:              <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm", placeholder:"Confirm password" %>
+62:              <span class="absolute inset-y-0 right-4 inline-flex items-center">
+63:                <svg
+64:                  xmlns="http://www.w3.org/2000/svg"
+65:                  class="h-5 w-5 text-gray-400"
+66:                  fill="none"
+67:                  viewBox="0 0 24 24"
+68:                  stroke="currentColor">
+69:                  <path
+70:                    stroke-linecap="round"
+71:                    stroke-linejoin="round"
+72:                    stroke-width="2"
+73:                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+74:                  <path
+75:                    stroke-linecap="round"
+76:                    stroke-linejoin="round"
+77:                    stroke-width="2"
+78:                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+79:                </svg>
+80:              </span>
+81:            </div>
+82:          </div>
+83:        </form>
+84:          <% end %>
+85:      </div>
+86:    
+87:      <div class="relative h-56 w-full sm:h-96 lg:h-full lg:w-1/2">
+88:        <img
+89:          alt="Welcome"
+90:          src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+91:          class="absolute inset-0 h-full w-full object-cover"
+92:        />
+93:      </div>
+94:    </section>
+95:    
+96:    <!--
+97:      This component uses @tailwindcss/forms
+98:    
+99:      yarn add @tailwindcss/forms
+100:      npm install @tailwindcss/forms
+101:    
+102:      plugins: [require('@tailwindcss/forms')]
+103:    -->
+104:    
+105:    <section class="bg-white">
+106:      <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+107:        <section
+108:          class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
+109:        >
+110:          <img
+111:            alt="Night"
+112:            src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+113:            class="absolute inset-0 h-full w-full object-cover opacity-80"
+114:          />
+115:    
+116:          <div class="hidden lg:relative lg:block lg:p-12">
+117:            <a class="block text-white" href="/">
+118:              <span class="sr-only">Home</span>
+119:              <svg
+120:                class="h-8 sm:h-10"
+121:                viewBox="0 0 28 24"
+122:                fill="none"
+123:                xmlns="http://www.w3.org/2000/svg"
+124:              >
+125:                <path
+126:                  d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+127:                  fill="currentColor"
+128:                />
+129:              </svg>
+130:            </a>
+131:    
+132:            <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+133:              Welcome to Squid 🦑
+134:            </h2>
+135:    
+136:            <p class="mt-4 leading-relaxed text-white/90">
+137:              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
+138:              dolorum aliquam, quibusdam aperiam voluptatum.
+139:            </p>
+140:          </div>
+141:        </section>
+142:    
+143:        <main aria-label="Main" class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6">
+144:          <div class="max-w-xl lg:max-w-3xl">
+145:            <div class="relative -mt-16 block lg:hidden">
+146:              <a class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-blue-600 sm:h-20 sm:w-20" href="/">
+147:                <span class="sr-only">Home</span>
+148:                <svg class="h-8 sm:h-10" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+149:                  <path d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z" fill="currentColor"/>
+150:                </svg>
+151:              </a>
+152:              <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl" >
+153:                Welcome to Quiz Game 🦑
+154:              </h1>
+155:              <p class="mt-4 leading-relaxed text-gray-500">
+156:                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+157:                nam dolorum aliquam, quibusdam aperiam voluptatum.
+158:              </p>
+159:            </div>
+160:    
+161:            <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+162:              <div class="col-span-6 sm:col-span-3">
+163:                <label
+164:                  for="FirstName"
+165:                  class="block text-sm font-medium text-gray-700"
+166:                >
+167:                  First Name
+168:                </label>
+169:    
+170:                <input
+171:                  type="text"
+172:                  id="FirstName"
+173:                  name="first_name"
+174:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+175:                />
+176:              </div>
+177:    
+178:              <div class="col-span-6 sm:col-span-3">
+179:                <label
+180:                  for="LastName"
+181:                  class="block text-sm font-medium text-gray-700"
+182:                >
+183:                  Last Name
+184:                </label>
+185:    
+186:                <input
+187:                  type="text"
+188:                  id="LastName"
+189:                  name="last_name"
+190:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+191:                />
+192:              </div>
+193:    
+194:              <div class="col-span-6">
+195:                <label for="Email" class="block text-sm font-medium text-gray-700">
+196:                  Email
+197:                </label>
+198:    
+199:                <input
+200:                  type="email"
+201:                  id="Email"
+202:                  name="email"
+203:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+204:                />
+205:              </div>
+206:    
+207:              <div class="col-span-6 sm:col-span-3">
+208:                <label
+209:                  for="Password"
+210:                  class="block text-sm font-medium text-gray-700"
+211:                >
+212:                  Password
+213:                </label>
+214:    
+215:                <input
+216:                  type="password"
+217:                  id="Password"
+218:                  name="password"
+219:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+220:                />
+221:              </div>
+222:    
+223:              <div class="col-span-6 sm:col-span-3">
+224:                <label
+225:                  for="PasswordConfirmation"
+226:                  class="block text-sm font-medium text-gray-700"
+227:                >
+228:                  Password Confirmation
+229:                </label>
+230:                <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+231:                <input
+232:                  type="password"
+233:                  id="PasswordConfirmation"
+234:                  name="password_confirmation"
+235:                  class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+236:                />
+237:              </div>
+238:              <div class="col-span-6">
+239:                <p class="text-sm text-gray-500">
+240:                  By creating an account, you agree to our
+241:                  <a href="#" class="text-gray-700 underline">
+242:                    terms and conditions
+243:                  </a>
+244:                  and
+245:                  <a href="#" class="text-gray-700 underline">privacy policy</a>.
+246:                </p>
+247:              </div>
+248:    
+249:              <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+250:                <div class="actions">
+251:                  <%= f.submit "Create an account", class:"inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500" %>
+252:                </div>
+253:            <% end %>
+254:                <p class="mt-4 text-sm text-gray-500 sm:mt-0">
+255:                  Already have an account?
+256:                  <a href="#" class="text-gray-700 underline">Log in</a>.
+257:                </p>
+258:              </div>
+259:            </form>
+260:          </div>
+261:        </main>
+262:      </div>
+263:    </section>
+  
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+app/views/devise/registrations/new.html.erb:266: syntax error, unexpected `end', expecting end-of-input
+Started GET "/users/sign_in" for ::1 at 2023-02-16 11:12:09 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 526)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2186)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 263)
+  Rendered shared/_flash.html.erb (Duration: 1.7ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 5103)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 6304)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:12:13 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2044)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4974)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 6186)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:13:10 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2149)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5079)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 6290)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:14:05 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2141)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 269)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5071)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 6279)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:16:14 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4480)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4565)
+Completed 500 Internal Server Error in 13ms (Allocations: 5768)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x0000000115dddb30 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000002e720>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:             <input
+    173:               type="text"
+    174:               id="FirstName"
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3044136160172630145)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDataToUsers (20230216101727)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.1ms)[0m  [1m[35mALTER TABLE "users" ADD "first_name" character varying[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "users" ADD "last_name" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230216101727"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3044136160172630145)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:18:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 195)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4451)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4536)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 8005)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x0000000116140a48 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x00000000033798>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:18:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 245)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 14.7ms | Allocations: 6068)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6176)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 6.1ms | Allocations: 16466)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000010fd1d2c8 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000c030>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, required: true, autofocus: true, input_html: { autocomplete: "first_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:19:14 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 4436)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4522)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5758)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000010ff0f180 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000c3c8>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, required: true, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, required: true, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:20:00 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 4436)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4522)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5754)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x0000000110155d18 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000c738>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:20:02 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3384)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3464)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4074)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000011047fac0 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000ca58>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:20:03 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 11)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 4436)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4522)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 5656)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000010fe2f620 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000cda0>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    168:             >
+    169:               First Name
+    170:             </label>
+    171:             <%= f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    172:           </div>
+    173: 
+    174:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:171
+app/views/devise/registrations/new.html.erb:162
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:20:27 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3189)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3274)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4492)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000011030e998 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000d0c0>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    65:             >
+    66:               First Name
+    67:             </label>
+    68:             <%= f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    69:           </div>
+    70: 
+    71:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:68
+app/views/devise/registrations/new.html.erb:59
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:20:28 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3188)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3273)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4491)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000010fef6d10 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000d408>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    65:             >
+    66:               First Name
+    67:             </label>
+    68:             <%= f.input :first_name, autofocus: true, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    69:           </div>
+    70: 
+    71:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:68
+app/views/devise/registrations/new.html.erb:59
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:21:25 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3178)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3263)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4481)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000010f82d060 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000d728>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" );@output_buffer.safe_append='
+                                              ^^^^^^):
+    59:             <label for="FirstName" class="block text-sm font-medium text-gray-700">
+    60:               First Name
+    61:             </label>
+    62:             <%= f.input :first_name, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+    63:           </div>
+    64: 
+    65:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:62
+app/views/devise/registrations/new.html.erb:56
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:21:26 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2428)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2507)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3104)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000000011031d628 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000da20>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :first_name, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" );@output_buffer.safe_append='
+                                              ^^^^^^):
+    59:             <label for="FirstName" class="block text-sm font-medium text-gray-700">
+    60:               First Name
+    61:             </label>
+    62:             <%= f.input :first_name, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm" %>
+    63:           </div>
+    64: 
+    65:           <div class="col-span-6 sm:col-span-3">
+  
+app/views/devise/registrations/new.html.erb:62
+app/views/devise/registrations/new.html.erb:56
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:22:01 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3343)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3428)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x0000000110094ac8 @nested_child_index={}, @options={:allow_method_names_outside_object=>false, :skip_default_ids=>false, :as=>:user, :html=>{:class=>"new_user", :id=>"new_user"}, :local=>true}, @template=#<ActionView::Base:0x0000000000dd40>, @object=#<User id: nil, email: "", created_at: nil, updated_at: nil, first_name: nil, last_name: nil>, @object_name=:user, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>false}, @default_html_options={}, @multipart=nil, @index=nil>
+
+            '.freeze;@output_buffer.append=( f.input :last_name, required: true, autofocus: true, input_html: { autocomplete: "last_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm");@output_buffer.safe_append='
+                                              ^^^^^^):
+    69:             >
+    70:               Last Name
+    71:             </label>
+    72:             <%= f.input :last_name, required: true, autofocus: true, input_html: { autocomplete: "last_name" }, class:"py-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"%>
+    73:           </div>
+    74: 
+    75:           <div class="col-span-6">
+  
+app/views/devise/registrations/new.html.erb:72
+app/views/devise/registrations/new.html.erb:56
+Started GET "/users/sign_up" for ::1 at 2023-02-16 11:22:06 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1628)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 289)
+  Rendered shared/_flash.html.erb (Duration: 2.2ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 76.8ms | Allocations: 22928)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 24215)
+
+
