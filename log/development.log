@@ -6584,3 +6584,85 @@ Processing by PagesController#play as HTML
 Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.2ms | Allocations: 5190)
 
 
+Started GET "/" for ::1 at 2023-02-16 16:33:55 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 1.1ms | Allocations: 125)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1403)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3366)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 3679)
+
+
+Started GET "/play" for ::1 at 2023-02-16 16:36:48 +0100
+Processing by PagesController#play as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/play.html.erb within layouts/application
+  Rendered pages/play.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:51
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 841)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2940)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 3181)
+
+
+Started GET "/" for ::1 at 2023-02-16 16:46:02 +0100
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 9)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 61.3ms | Allocations: 4105)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 73.6ms | Allocations: 6068)
+Completed 200 OK in 78ms (Views: 75.9ms | ActiveRecord: 13.4ms | Allocations: 6307)
+
+
+Started GET "/" for ::1 at 2023-02-17 10:29:20 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_hero.html.erb (Duration: 0.9ms | Allocations: 141)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/index.html.erb:2
+  Rendered pages/index.html.erb within layouts/application (Duration: 32.1ms | Allocations: 10796)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 309)
+  Rendered shared/_flash.html.erb (Duration: 1.0ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 98.7ms | Allocations: 31420)
+Completed 200 OK in 115ms (Views: 98.6ms | ActiveRecord: 5.4ms | Allocations: 35052)
+
+
+Started GET "/play" for ::1 at 2023-02-17 10:31:10 +0100
+Processing by PagesController#play as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/play.html.erb within layouts/application
+  Rendered pages/play.html.erb within layouts/application (Duration: 0.8ms | Allocations: 168)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:51
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 1000)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3370)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 3751)
+
+
+Started GET "/play" for ::1 at 2023-02-17 10:31:50 +0100
+Processing by PagesController#play as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/play.html.erb within layouts/application
+  Rendered pages/play.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:51
+  Rendered shared/_navbar.html.erb (Duration: 14.7ms | Allocations: 853)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 2968)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.3ms | Allocations: 3211)
+
+
